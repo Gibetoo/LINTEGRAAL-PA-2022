@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(8, 19, 42, 1);
+    min-height: 100vh;
+}
+
+/* ___________________________________________________Page index______________________________________________________  */
+
+.carousel1 p {
+    text-shadow: 0 0 20px black;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.carousel1 p {
+    color: white;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.carousel1 button {
+    font-style: normal;
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    font-size: 100%;
+    left: 200px;
+    top: 62%;
+}
+
+/* ___________________________________________________header__________________________________________________________ */
+
+header {
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header2 {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(44, 44, 44, 0.5);
+}
+
+.dimension {
+    font-size: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100%;
+}
+
+/* __________________________________________________footer_______________________________________________________________ */
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    margin-left: 40%;
+}
+
+.logo2 {
+    margin-right: 20%;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.info_principal {
+    box-shadow: 0 0 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+#derniere_actus_interne {
+    color: white;
+}
+
+#derniere_actus_interne p {
+    text-align: justify;
+    margin: 50px;
+}
+
+.dernier_actus {
+    margin-top: 150px;
+}
+
+.col p {
+    text-align: justify;
+}
+
+/* ___________________________________________________PAGE CONNEXION___________________________________________________ */
+
+.form_connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: #3fb0ac;
+    width: 50%;
+    margin-top: 5%;
+
+}
+
+/* ____________________________________________________________________________________________________________________ */
+
+
+/* ___________________________________________________PAGE INSCRIPTION_________________________________________________ */
+
+.form_inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: #3fb0ac;
+    width: 50%;
+    margin-top: 5%;
+
+}
+
+/* ____________________________________________________________________________________________________________________ */
+
+
+
+
+/* ___________________________________________________PAGE ADMIN________________________________________________________ */
+
+.change {
+    color: white;
+}
+
+/* _____________________________________________________________________________________________________________________ */
+
+
+/* ___________________________________________________PAGE MON_PROFIL___________________________________________________ */
+
+
+
+
+/* ___________________________________________________CAPTCHA__________________________________________________________ */
